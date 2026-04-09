@@ -1,0 +1,153 @@
+
+
+#hero-section{
+  background-image: url(Assets/japanbg.jpg);
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@font-face{
+  font-family: "headline";
+  src: url("fonts/headline.ttf");
+}
+
+
+.headline{
+  font-family: "headline";
+  font-size: 100px;
+  margin-bottom: 0px;
+  text-shadow: 0px 5px 10px #4c4563;}
+
+.text{
+  margin-top: 100px;
+  
+ 
+}
+
+.headline-copy{
+  font-size: 45px;
+  margin-top: 0px;
+  font-weight: 75;
+  
+}
+
+.headline-2{
+  text-align: center;
+  margin: 50px;
+  color: #4ba3d1;
+  font-size: 30px;
+}
+
+.mt-fuji{
+  width: 300px;
+  height: 200px;
+  border-radius: 40px;
+}
+
+.site-description{
+  width: 300px;
+  margin-top: 0px;
+  color: #4c4563;
+}
+
+.site-name{
+  color: #4c4563;
+  font-size: 20px;
+  margin-left:10px ;
+  text-align: center;
+
+}
+
+.site-1{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+}
+
+.osaka-castle{
+  width: 300px;
+  height: 200px;
+  border-radius: 40px;
+}
+
+.site-2{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+}
+
+.okinawa{
+  width: 300px;
+  height: 200px;
+  border-radius: 40px;
+}
+
+.site-3{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+}
+
+.famous-sites{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-direction: row;
+   flex-wrap: wrap; 
+   background-color: #c6e9ff;
+   height: 500px;
+   border-radius: 30px;
+   background-size: cover;
+   align-items: center;
+}
+
+.ab-me-hline{
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-me{
+  margin-top: 0px;
+  color: #f2faff;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.container{
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #4ba3d1;
+  width: 400px;
+  height: 200px;
+ border-radius: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+   align-items: center;
+
+}
+
+.profile-img{
+
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+
